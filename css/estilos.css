@@ -71,29 +71,29 @@ main section:nth-of-type(3) article{
 }
 main section:nth-of-type(3) article:nth-of-type(1){
     height: 700px;
-    background-image: url("/img 01.41.34/calzado.jpeg");
+    background-image: url("img 01.41.34/calzado.jpeg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 main section:nth-of-type(3) article:nth-of-type(2){
     height: 700px;
-    background-image: url("/img 01.41.34/bermudas.jpeg");
+    background-image: url("img 01.41.34/bermudas.jpeg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 main section:nth-of-type(3) article:nth-of-type(3){
     height: 700px;
-    background-image: url("/img 01.41.34/camisetas.jpeg");
+    background-image: url("img 01.41.34/camisetas.jpeg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 main section:nth-of-type(3) article:nth-of-type(4){
-    background-image: url("/img 01.41.34/calzado.jpeg");
+    background-image: url("img 01.41.34/calzado.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 main section:nth-of-type(3) article:nth-of-type(5){
-    background-image: url("/img 01.41.34/bermudas.jpeg");
+    background-image: url("img 01.41.34/bermudas.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -104,25 +104,25 @@ main section:nth-of-type(3) article:nth-of-type(6){
 }
 main section:nth-of-type(3) article:nth-of-type(7){
     height: 600px;
-    background-image: url("/img 01.41.34/calzado.jpeg");
+    background-image: url("img 01.41.34/calzado.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 main section:nth-of-type(3) article:nth-of-type(8){
     height: 600px;
-    background-image: url("/img 01.41.34/bermudas.jpeg");
+    background-image: url("img 01.41.34/bermudas.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 main section:nth-of-type(3) article:nth-of-type(9){
     height: 600px;
-    background-image: url("/img 01.41.34/camisetas.jpeg");
+    background-image: url("img 01.41.34/camisetas.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
 main section:nth-of-type(4){
    height: 300px;
-   background-image: url("/img 01.41.34/store.jpeg");
+   background-image: url("img 01.41.34/store.jpeg");
    background-size: cover;
    background-attachment: fixed;
    background-position-y: 400px;
