@@ -1,0 +1,140 @@
+/* FUENTES */
+@font-face {
+    font-family: Titulos;
+    src: url("../fonts/Poppins-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: Textos;
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+
+/* ESPECIFICACIONES 
+
+COLORES
+PROMOCIONES Y SALE : rgb(216, 7, 7)
+
+FUENTES
+p y a < textos
+h1, h2 > textos
+
+BORDE HEADER rgb(191, 191, 191)
+
+LOGO ANCHO 200px
+
+MENU ENLACES CON SEPARACION ENTRE LETRAS DE 2px
+
+SECCION INICIAL CON ALTURA DE 65 viewport 
+
+h1 tamaño 5em y opacidad
+h2 tamaño 2em
+
+SECCION STORE de alto de 45 VIEWPORT
+section store h2 con separacion entre letras de 5px
+
+*/
+
+/* COMIENZA CSS DEL SITIO */
+div:nth-of-type(1) div p{
+    background-color: black;
+    color: white;
+}
+header nav ul li a{
+    color: black;
+}
+header nav ul li:nth-of-type(3) a{
+    color: red;
+}
+main section:nth-of-type(1){
+    height: 400px;
+    background-image: url("../img 01.41.34/banner.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: 250px;
+}
+main section:nth-of-type(1) h1{
+    font-size: 70px;
+    color: white;
+    opacity: 80%;
+}
+main section:nth-of-type(2) h1{
+    font-size: 30px;
+}
+main section:nth-of-type(3) article p{
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    width: 80%;
+}
+main section:nth-of-type(3) article{
+    height: 1200px;
+}
+main section:nth-of-type(3) article:nth-of-type(1){
+    height: 700px;
+    background-image: url("/img 01.41.34/calzado.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+main section:nth-of-type(3) article:nth-of-type(2){
+    height: 700px;
+    background-image: url("/img 01.41.34/bermudas.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+main section:nth-of-type(3) article:nth-of-type(3){
+    height: 700px;
+    background-image: url("/img 01.41.34/camisetas.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+main section:nth-of-type(3) article:nth-of-type(4){
+    background-image: url("/img 01.41.34/calzado.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main section:nth-of-type(3) article:nth-of-type(5){
+    background-image: url("/img 01.41.34/bermudas.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main section:nth-of-type(3) article:nth-of-type(6){
+    background-image: url("/img 01.41.34/camisetas.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main section:nth-of-type(3) article:nth-of-type(7){
+    height: 600px;
+    background-image: url("/img 01.41.34/calzado.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main section:nth-of-type(3) article:nth-of-type(8){
+    height: 600px;
+    background-image: url("/img 01.41.34/bermudas.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main section:nth-of-type(3) article:nth-of-type(9){
+    height: 600px;
+    background-image: url("/img 01.41.34/camisetas.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main section:nth-of-type(4){
+   height: 300px;
+   background-image: url("/img 01.41.34/store.jpeg");
+   background-size: cover;
+   background-attachment: fixed;
+   background-position-y: 400px;
+   border-top: 6px solid black;
+   border-bottom: 6px solid black;
+}
+main section:nth-of-type(4) h1{
+    background-color: white;
+}
+main section:nth-of-type(5) h1{
+    font-size: 30px;
+}
+main section:nth-of-type(5) h1 span{
+   color: red;
+}

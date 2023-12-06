@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Titulo</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        
+       <!--Primero el móvil, no tender a hacer zoom, sino levantar a escala natural siempre y cuando haya
+       sido pensado como un sitio responsive, y anular el comportamiento de ajustar a los límites del dispositivo
+       el contenido, cuando este sobresalga-->
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- CSS -->
+        <!--Bootstrap CSS-->
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <!--CSS Propio-->
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+
+        <!-- JavaScript -->
+        <!-- Popper.js + Bootstrap JS o Boostrap con Popper inc. -->
+        <script src="js/bootstrap.bundle.js"></script>
+        <!--<script src="js/popper.min.js"></script>-->
+        <!--<script src="js/bootstrap.js"></script>-->
+
+    </head>
+    <body>
+        <!-- BARRA TOP -->
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <p class="col text-center py-2">Envio gratias a tienda 24 hs!</p>
+                <p class="col text-center py-2">Devolucion gratuitas</p>
+                <p class="col text-center py-2 d-none d-lg-block">Hace tu pedido online, pagalo en la tienda</p>
+            </div>
+        </div>
+        <!-- CABEZAL -->
+        <div class="container-fluid">
+            <header class="row justify-content-center">
+                <!-- LOGO -->
+                <figure class="col-3">
+                    <img src="img 01.41.34/logo.png" alt="Logo de la web" class="img-fluid">
+                </figure>
+                <hr>
+                <!-- MENU -->
+                <nav class="col-12 py-2">
+                    <ul class="list-unstyled list-inline text-center">
+                        <li class="list-inline-item">
+                            <a href="#" class="text-decoration-none">Denim</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="text-decoration-none">Store</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="text-decoration-none">Promociones</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <!-- SECCION INICIAL -->
+        <main class="container-fluid">
+            <!-- BANNER -->
+            <section class="row align-items-center">
+                <h1 class="col-12 text-center">splash</h1>
+            </section>
+            <!-- DENIM -->
+            <section class="row justify-content-center align-items-center py-4 px-5">
+                <h1 class="col-12 text-center pb-3"><span class="text-decoration-underline">new in</span> / denim</h1>
+                <!-- XS SM-->
+                <article class="col-11 text-center d-md-none">
+                    <figure class="align-items-center">
+                        <img src="img 01.41.34/denim-1.jpeg" alt="Denim 1" class="img-fluid">
+                    </figure>
+                    <p class="text-center">Jean Skinny</p>
+                    <p class="text-center">$3199</p>
+                </article>
+                <article class="col-11 text-center d-md-none">
+                    <figure class="align-items-center">
+                        <img src="img 01.41.34/denim-2.jpeg" alt="Denim 1" class="img-fluid">
+                    </figure>
+                    <p class="text-center">Jean Skinny</p>
+                    <p class="text-center">$3199</p>
+                </article>
+                <!-- MD -->
+                <article class="col-5 text-center d-none d-md-block d-lg-none">
+                    <figure class="align-items-center">
+                        <img src="img 01.41.34/denim-1.jpeg" alt="Denim 1" class="img-fluid">
+                    </figure>
+                    <p class="text-center">Jean Skinny</p>
+                    <p class="text-center">$3199</p>
+                </article>
+                <article class="col-5 text-center d-none d-md-block d-lg-none">
+                    <figure class="align-items-center">
+                        <img src="img 01.41.34/denim-2.jpeg" alt="Denim 1" class="img-fluid">
+                    </figure>
+                    <p class="text-center">Jean Skinny</p>
+                    <p class="text-center">$3199</p>
+                </article>
+                <!-- LG XL XXL-->
+                <article class="col-3 text-center d-none d-lg-block">
+                    <figure class="align-items-center">
+                        <img src="img 01.41.34/denim-1.jpeg" alt="Denim 1" class="img-fluid">
+                    </figure>
+                    <p class="text-center">Jean Skinny</p>
+                    <p class="text-center">$3199</p>
+                </article>
+                <article class="col-3 text-center d-none d-lg-block">
+                    <figure class="align-items-center">
+                        <img src="img 01.41.34/denim-2.jpeg" alt="Denim 1" class="img-fluid">
+                    </figure>
+                    <p class="text-center">Jean Skinny</p>
+                    <p class="text-center">$3199</p>
+                </article>
+                <article class="col-3 text-center d-none d-lg-block">
+                    <figure class="align-items-center">
+                        <img src="img 01.41.34/denim-4.jpeg" alt="Denim 1" class="img-fluid">
+                    </figure>
+                    <p class="text-center">Jean Skinny</p>
+                    <p class="text-center">$3199</p>
+                </article>
+            </section>
+            <!-- BANNERS De Indumentaria -->
+            <section class="row justify-content-center align-items-center py-5 mx-5">
+                <!-- XS SM -->
+                <article class="col-11 my-3 d-md-none">
+                    <p class="text-center p-1">calzado</p>
+                </article>
+                <article class="col-11 my-3 d-md-none">
+                    <p class="text-center p-1">bermudas</p>
+                </article>
+                <article class="col-11 my-3 d-md-none">
+                    <p class="text-center p-1">camisetas</p>
+                </article>
+                <!-- MD -->
+                <article class="col-11 my-3 d-none d-md-block d-lg-none">
+                    <p class="text-center p-1">calzado</p>
+                </article>
+                <article class="col-11 my-3 d-none d-md-block d-lg-none">
+                    <p class="text-center p-1">bermudas</p>
+                </article>
+                <article class="col-11 my-3 d-none d-md-block d-lg-none">
+                    <p class="text-center p-1">camisetas</p>
+                </article>
+                <!-- LG XL XXL -->
+                <article class="col-3 mx-3 d-none d-lg-block">
+                    <p class="text-center p-1">calzado</p>
+                </article>
+                <article class="col-3 mx-3 d-none d-lg-block">
+                    <p class="text-center p-1">bermudas</p>
+                </article>
+                <article class="col-3 mx-3 d-none d-lg-block">
+                    <p class="text-center p-1">camisetas</p>
+                </article>
+            </section>
+            <section class="row justify-content-center align-items-center">
+                <h1 class="col-6 text-center">welcome in</h1>
+            </section>
+            <section class="row justify-content-center align-items-center py-4 px-5">
+                <h1 class="col-12 text-center pb-3"><span>sale</span> / calzado</h1>
+                <!-- XS SM -->
+                <article class="col-11 text-center d-md-none">
+                    <figure>
+                        <img src="img 01.41.34/zapato-1.jpeg" alt="zapato 1" class="img-fluid">
+                    </figure>
+                    <p>Brown shoes</p>
+                    <p>$9899</p>
+                </article>
+                <article class="col-11 text-center d-md-none">
+                    <figure>
+                        <img src="img 01.41.34/zapato-2.jpeg" alt="zapato 2" class="img-fluid">
+                    </figure>
+                    <p>Total White</p>
+                    <p>$1399</p>
+                </article>
+                <!-- MD -->
+                <article class="col-5 text-center d-none d-md-block d-lg-none">
+                    <figure>
+                        <img src="img 01.41.34/zapato-1.jpeg" alt="zapato 1" class="img-fluid">
+                    </figure>
+                    <p>Brown shoes</p>
+                    <p>$9899</p>
+                </article>
+                <article class="col-5 text-center d-none d-md-block d-lg-none">
+                    <figure>
+                        <img src="img 01.41.34/zapato-2.jpeg" alt="zapato 2" class="img-fluid">
+                    </figure>
+                    <p>Total White</p>
+                    <p>$1399</p>
+                </article>
+                <!-- LG XL XLL-->
+                <article class="col-2 text-center d-none d-lg-block ">
+                    <figure>
+                        <img src="img 01.41.34/zapato-1.jpeg" alt="zapato 1" class="img-fluid">
+                    </figure>
+                    <p>Brown shoes</p>
+                    <p>$9899</p>
+                </article>
+                <article class="col-2 text-center d-none d-lg-block">
+                    <figure>
+                        <img src="img 01.41.34/zapato-2.jpeg" alt="zapato 2" class="img-fluid">
+                    </figure>
+                    <p>Total White</p>
+                    <p>$1399</p>
+                </article>
+                <article class="col-2 text-center d-none d-lg-block">
+                    <figure>
+                        <img src="img 01.41.34/zapato-4.jpeg" alt="zapato 3" class="img-fluid">
+                    </figure>
+                    <p>Summer shoes</p>
+                    <p>$899</p>
+                </article>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <div class="container-fluid">
+            <footer class="row">
+                <p class="col-12 text-center">Sitio realizado por Nicolas Abreu</p>
+            </footer>
+        </div>
+
+
+
+        
+    </body>
+</html>
